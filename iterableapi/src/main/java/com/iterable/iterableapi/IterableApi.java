@@ -304,7 +304,7 @@ private static final String TAG = "IterableApi";
                     sharedInstance.config.inAppDisplayInterval);
         }
         loadLastSavedConfiguration(context);
-        IterablePushActionReceiver.processPendingAction(context);
+        IterablePushNotificationUtil.processPendingAction(context);
     }
 
     public static void setContext(Context context) {
